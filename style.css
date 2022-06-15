@@ -1,0 +1,45 @@
+/*
+Theme Name: Untitled Child
+Description: Untitled Child Theme
+Author: Shinzoku
+Author URI: http://github.com/Shinzoku
+Theme URI: http://github.com/Shinzoku/untitled-child-theme
+Template: untitled
+Version: 1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Oleo+Script&display=swap');
+body {
+    background-color: lavender
+}
+
+.hentry {
+    border-bottom: 6px solid rgb(0, 0, 118);
+    border-radius: 20px;
+}
+
+#masthead-wrap {
+    background-color: #d50000;
+}
+
+button:hover {
+    box-shadow: 12px 12px 2px 1px black;
+    background-color: #d50000;
+}
+
+.wp-block-search__button {
+    background-color: black;
+    color: lavender;
+}
+
+.entry-title {
+    font-family: 'Oleo Script', cursive;
+}
+
+.entry-title a:hover {
+    color: #d50000;
+}
+
+p {
+    font-family: 'Comic Neue', cursive;
+}
